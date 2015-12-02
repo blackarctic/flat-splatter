@@ -1,0 +1,76 @@
+{"frames": [
+
+{
+	"filename": "buttonA",
+	"frame": {"x":74,"y":38,"w":33,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":33},
+	"sourceSize": {"w":33,"h":33}
+},
+{
+	"filename": "buttonD",
+	"frame": {"x":38,"y":2,"w":34,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":33},
+	"sourceSize": {"w":34,"h":33}
+},
+{
+	"filename": "buttonK",
+	"frame": {"x":38,"y":37,"w":34,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":33},
+	"sourceSize": {"w":34,"h":33}
+},
+{
+	"filename": "buttonL",
+	"frame": {"x":2,"y":2,"w":34,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":34},
+	"sourceSize": {"w":34,"h":34}
+},
+{
+	"filename": "buttonO",
+	"frame": {"x":2,"y":38,"w":34,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":34},
+	"sourceSize": {"w":34,"h":34}
+},
+{
+	"filename": "buttonS",
+	"frame": {"x":38,"y":73,"w":33,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":33},
+	"sourceSize": {"w":33,"h":33}
+},
+{
+	"filename": "buttonSemi",
+	"frame": {"x":74,"y":2,"w":33,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":34},
+	"sourceSize": {"w":33,"h":34}
+},
+{
+	"filename": "buttonW",
+	"frame": {"x":73,"y":73,"w":33,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":33},
+	"sourceSize": {"w":33,"h":33}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "keysSheet.png",
+	"format": "RGBA8888",
+	"size": {"w":109,"h":108},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d94d669f83a3e7dbfda7eadc7ff812be:f855ea23e91813ee4fa2145391fd7bd0:a1631260baacf9aca3b1d2ff40426012$"
+}
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Splatter</title>
+		
+		<!--js libraries-->
+		<script src="js/phaser.js" type="text/javascript"></script>
+		
+		<!--js enums-->
+		<script src="js/enums/direction.js" type="text/javascript"></script>
+		<script src="js/enums/powerUp.js" type="text/javascript"></script>
+		<script src="js/enums/color.js" type="text/javascript"></script>
+		
+		<!--js phaser states-->
+		<script src="js/states/bootState.js" type="text/javascript"></script>
+		<script src="js/states/preloaderState.js" type="text/javascript"></script>
+		<script src="js/states/startState.js" type="text/javascript"></script>
+		<script src="js/states/endState.js" type="text/javascript"></script>
+		<script src="js/states/playState.js" type="text/javascript"></script>
+		
+		<!--js phaser objects-->
+		<script src="js/objects/manager.js" type="text/javascript"></script>
+		<script src="js/objects/player.js" type="text/javascript"></script>
+		<script src="js/objects/board.js" type="text/javascript"></script>
+		<script src="js/objects/boardSpace.js" type="text/javascript"></script>
+		<script src="js/objects/playerStats.js" type="text/javascript"></script>
+		
+		<!--fonts-->
+		<link rel="stylesheet" href="fonts/edamameregular/stylesheet.css" type="text/css">
+		
+		<!--styles-->
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		
+		
+		
+		
+	</head>
+	<body>
+		
+		
+		<div class="fontPreload hide" style="font-family: edamameregular;">.</div>
+		
+		<div id="loadingWrapper">
+			<div id="loading">Loading...</div>
+		</div>
+		
+		<div id="container"></div>
+		<script type="text/javascript">
+		
+			window.onload = function () {
+				
+				manager = new Manager();
+				music = null;    // Music by Kevin MacLeod. Sound Effects by superflashbros.net
+								
+				game = new Phaser.Game(900, 900, Phaser.AUTO, 'container');
+				
+				//add game states
+				game.state.add('BootState', Splatter.BootState);
+				game.state.add('PreloaderState', Splatter.PreloaderState);
+				game.state.add('StartState', Splatter.StartState);
+				game.state.add('EndState', Splatter.EndState);
+				game.state.add('PlayState', Splatter.PlayState);
+				
+				
+				
+				//start the game
+				game.state.start('BootState');
+			}
+		</script>
+	</body>
+</html>

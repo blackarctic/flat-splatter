@@ -1,0 +1,19 @@
+
+==========================
+=== FINAL WEEK CHANGES ===
+==========================
+
+
+- Fixed High Score Bugs
+	- Best Coverage is now accurate
+	- Current Coverage is now accurate
+	- Wins is now accurate
+- Fixed Persisting Power Up Bugs where the persisting power up would get assigned to the wrong player
+- Fixed Ring Power Up Bug where the ring power up would not cover all surrounding spaces
+- Fixed Shot Power Up Bug where the shot power up would not cover all spaces in front of the player
+- Fixed Player Selection Bug where Player 2 selection would be ignored if selection was Blue
+- Added some user interface brush-ups that indicate what color you are playing as
+- Added ability to use the arrow keys for player 1
+- Added many game sound effects and game music (the music and sound effects are not mine. source in the code)
+- Fixed Multiple Presses Bug where if you held down the P or ESC key in the start state, it would go nuts.
+- Cleaned up the code (removed unused functions and variables & added better comments)

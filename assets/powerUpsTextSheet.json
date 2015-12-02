@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "stealTextLeft",
+	"frame": {"x":2,"y":2,"w":118,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":9,"w":118,"h":94},
+	"sourceSize": {"w":140,"h":110}
+},
+{
+	"filename": "ringTextLeft",
+	"frame": {"x":583,"y":2,"w":110,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":16,"w":110,"h":78},
+	"sourceSize": {"w":140,"h":110}
+},
+{
+	"filename": "ringTextRight",
+	"frame": {"x":233,"y":2,"w":108,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":13,"w":108,"h":86},
+	"sourceSize": {"w":140,"h":110}
+},
+{
+	"filename": "shotTextLeft",
+	"frame": {"x":122,"y":2,"w":109,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":12,"w":109,"h":87},
+	"sourceSize": {"w":140,"h":110}
+},
+{
+	"filename": "shotTextRight",
+	"frame": {"x":468,"y":2,"w":113,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":15,"w":113,"h":80},
+	"sourceSize": {"w":140,"h":110}
+},
+{
+	"filename": "stealTextRight",
+	"frame": {"x":343,"y":2,"w":123,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":12,"w":123,"h":84},
+	"sourceSize": {"w":140,"h":110}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "powerUpsTextSheet.png",
+	"format": "RGBA8888",
+	"size": {"w":695,"h":98},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0ba39955c5b21bae57a62d0fc81b5024:2228191d6184e7530b118a88f6179cfb:769e3438cda77fc076cf853e8284ca90$"
+}
+}

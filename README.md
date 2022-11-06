@@ -2,7 +2,7 @@
 
 A mini game built with HTML/CSS/Javascript using [Phaser](http://phaser.io/)
 
-Play at <http://blackarcticstudio.com/flat-splatter>
+Play at <http://blackarctic.io/flat-splatter>
 
 ## Goal
 
